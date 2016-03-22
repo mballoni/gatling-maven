@@ -1,7 +1,7 @@
 # gatling-maven
 
 ##generated using maven archetype:
-http://gatling.io/docs/2.1.7/extensions/maven\_archetype.html
+http://gatling.io/docs/2.1.7/extensions/maven_archetype.html
 
 ##Execute using:
 mvn gatling:execute

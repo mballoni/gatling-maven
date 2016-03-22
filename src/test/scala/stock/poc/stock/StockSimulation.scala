@@ -9,7 +9,7 @@ import io.gatling.http.request.builder.HttpRequestBuilder.toActionBuilder
 class StockSimulation extends Simulation {
 
   val httpConf = http
-    .baseURL("http://localhost:8080/api/transaction/")
+    .baseURL("http://localhost:8080/api/transaction/async/")
     .acceptHeader("text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8")
     .doNotTrackHeader("1")
     .acceptLanguageHeader("en-US,en;q=0.5")
